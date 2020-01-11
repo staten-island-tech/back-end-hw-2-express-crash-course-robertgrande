@@ -1,0 +1,14 @@
+<h1>{{title}}</h1>
+<form action="/api/members" method="POST" class="joe">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" name="">
+    </div>
+    <input type="text" value="Add Mmebers" class="submit">
+</form>
+<h1>Mmbers</h1>
+<ul>
+    {{#each members}}
+    <li class="">{{this.name}}</li>
+    {{/each}}
+</ul>
